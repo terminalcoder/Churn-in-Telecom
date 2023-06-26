@@ -67,5 +67,13 @@ Please review the full analysis in the [Jupyter Notebook](https://github.com/ter
 For any additional questions, please contact Elimelech Berlin, melech.berlin@gmail.com.
 
 ***
-Repository Structure
+## Repository Structure
+```
+├── README.md                                 <- the top-level README for reviewers of this project
+├── notebook.ipynb                            <- narrative documentation of analysis in Jupyter notebook
+├── presentation.pdf                          <- PDF version of project presentation
+├── data                                      <- sourced externally
+├── .gitignore                                <- files to ignore
+└── images                                    <- sourced externally & from code
+```
 
