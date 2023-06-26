@@ -64,4 +64,8 @@ Several points must be taken into account when considering this report:
 ***
 ### For More Information
 Please review the full analysis in the [Jupyter Notebook](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/notebook.ipynb) or the presentation.  
-For any additional questions, please contact Elimelech Berlin, melech.berlin@gmail.com .
+For any additional questions, please contact Elimelech Berlin, melech.berlin@gmail.com.
+
+***
+Repository Structure
+
