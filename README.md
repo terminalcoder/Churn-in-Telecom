@@ -52,3 +52,12 @@ ___
 ![images](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/intl_churn_pie.png)
 * Customers with a plan that includes international service, churn at a much greater rate than those without. This may be sign that the price of that service isn't competitive with what other providers offer.
 > The provider should offer customers identified as likely to churn, a discount on international plans.
+
+## Limitations/Next Steps
+Several points must be taken into account when considering this report:
+
+The highest scoring model identified above doesn't score all that high, further exploration of possible models with other hyperparameters may yield a better result.
+
+Depending on costs to implement recommendations, & loss associated with each customer churning, it may be determined that a different scoring method than the one used above is better suited to the business application. (e.g. If the cost to target individual customers is low & the loss from each customer churning is high, a model with high recall would be better even if it came at the expense of low precision.) *Further investigation is necessary to determine the best metric.*
+
+The recommendations arrived at above make certain assumptions about the underlying reasons for the patterns found in the data. Other perspectives on those patterns may indicate a need for different business strategies. (e.g. From the elevated churn rate of customers with international service included in their plan it was inferred that this provider charges too much for this service. However, there could be an entirely different reason for this phenomenon: Customers with international service may be foreigners who are only temporarily living in the US & after some period of time, return to their home countries & close their US service accounts when doing so.) *More research should be conducted to better understand the churn rates associated with the features identified above. (e.g. Determine if other providers are charging lower rates for such service, & facing equal churn rates.)*
