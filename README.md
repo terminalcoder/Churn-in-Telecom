@@ -32,4 +32,5 @@ Each model's performance is assesed by its f1-score on test predictions, in orde
 A random forest classifier, with an f1-score of .71, is ultimately identified as the best performing model for the data.
 ***
 ## Features
-These are the features & their importance as shown by the model:
+The features used to predict customer churn, & their respective importance:
+![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/rf_model_feat_imp_hbar.png)
