@@ -9,7 +9,7 @@ This report examines data about phone usage to gain understanding of factors tha
 * number of customer service calls
 * international plan
 ***
-## Business Problem
+## Business Understanding
 One of the greatest business challenges to providers of telecommunication services is customer churn. Although customers may abandon a service provider for a number of reasons, a carefully crafted and targeted effort to retain customers who may leave, may prove effective in retaining their patronage. As such, identifying those customers & gaining insight into the factors that may influence their decision to keep their accounts, is essential in reducing a company's customer churn rate. 
 ***
 ## Data
@@ -34,3 +34,9 @@ A random forest classifier, with an f1-score of .71, is ultimately identified as
 ## Features
 The features used to predict customer churn, & their respective importance:
 ![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/rf_model_feat_imp_hbar.png)
+***
+## Conclusions
+![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/day_min_churn_bar.png)
+* As the number of usage minutes increases (day or evening), so does the churn rate. This might be explainable by high minutes usage rates/plans that are not competitive with what other providers offer. By offering customers who are predicted to churn, discounts on high usage plans (over 250 minutes day/ 300 minutes evening), they will be discouraged from abandoning the provider.
+
+![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/cscalls_churn_bar.png)
