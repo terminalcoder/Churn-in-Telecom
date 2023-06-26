@@ -40,12 +40,13 @@ The features used to predict customer churn, & their respective importance:
 ![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/day_min_churn_bar.png)
 * As the number of usage minutes increases (day or evening (not shown above)), so does the churn rate. This may be explainable by high minutes usage rates/plans that are not competitive with what other providers offer.
 > By offering customers who are predicted to churn, discounts on high usage plans (over 250 minutes day/ 300 minutes evening), they will be discouraged from abandoning the provider.
+___
 
 ### Customer Service Calls
 ![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/cscalls_churn_bar.png)
 * From the pattern of rising churn rates associated with an increasing number of customer service calls, it may be inferred that customers will close their accounts after some number of attempts at resolving their issues.  
 > As the churn rate jumps dramatically at four service calls, the provider must implement a policy in the customer service department that focuses on ensuring a satisfactory resolution at no point further than at the time of a customer's third call.
-
+___
 
 ### International Plan
 ![images](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/intl_churn_pie.png)
