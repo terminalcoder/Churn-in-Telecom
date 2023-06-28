@@ -63,7 +63,7 @@ Several points must be taken into account when considering this report:
 * The recommendations arrived at above make certain assumptions about the underlying reasons for the patterns found in the data. Other perspectives on those patterns may indicate a need for different business strategies. (e.g. From the elevated churn rate of customers with international service included in their plan it was inferred that this provider charges too much for this service. However, there could be an entirely different reason for this phenomenon: Customers with international service may be foreigners who are only temporarily living in the US & after some period of time, return to their home countries & close their US service accounts when doing so.) *More research should be conducted to better understand the churn rates associated with the features identified above. (e.g. Determine if other providers are charging lower rates for such service, & facing equal churn rates.)*
 ***
 ### For More Information
-Please review the full analysis in the [Jupyter Notebook](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/notebook.ipynb) or the presentation.  
+Please review the full analysis in the [Jupyter Notebook](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/notebook.ipynb) or the [presentation](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/presentation.pdf).  
 For any additional questions, please contact Elimelech Berlin, melech.berlin@gmail.com.
 
 ***
