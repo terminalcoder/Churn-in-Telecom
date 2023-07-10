@@ -1,4 +1,3 @@
-![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/pexels-troy-squillaci-2525871_4.jpg)
 # Churn in Telecom
 Elimelech Berlin  
 June 2023
@@ -20,6 +19,9 @@ This dataset includes details of 3k+ US telecom accounts, including:
 * plan details
 * usage minutes
 * churn status
+
+The target variable, `'churn'`, is present in the data with the following distribution *(note the strong class imbalance)*:
+![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/churn_dist_bar.png)
 ***
 ## Modeling
 Prior to the actual modeling, the list of predictor features was reduced to include only those features that had the highest correlation with the target feature, `'churn'`. (The features were scaled to ensure that they could be modeled effectively with logistic regression.)  
