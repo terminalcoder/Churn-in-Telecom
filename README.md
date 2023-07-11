@@ -22,7 +22,7 @@ This dataset includes details of 3k+ US telecom accounts, including:
 
 ### Feature Distribution
 #### Predictor Variables
-The predictor features are present in the data with the following distributions *(note that several of the features are binomialy distributed)*:
+The predictor features are present in the data with the following distributions *(note that several of the features have a binomial distribution)*:
 ![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/feat_dist_hist.png)
 
 #### Target Variable
