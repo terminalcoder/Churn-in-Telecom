@@ -20,6 +20,12 @@ This dataset includes details of 3k+ US telecom accounts, including:
 * usage minutes
 * churn status
 
+### Feature Distribution
+#### Predictor Variables
+The predictor features are present in the data with the following distribution *(note that several of the features are binomialy distributed)*:
+![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/feat_dist_hist.png)
+
+#### Target Variable
 The target variable, `'churn'`, is present in the data with the following distribution *(note the strong class imbalance)*:
 ![image](https://github.com/terminalcoder/Churn-in-Telecom/blob/main/images/churn_dist_bar.png)
 ***
