@@ -36,6 +36,7 @@ Several different modeling techniques are used to identify a classification mode
 - Logistic Regression
 - Random Forest
 - XGBoost
+  
 For each method used, a number of model parameters are tried, in an iterative fashion, to pinpoint the best model.
 Each model's performance is assesed by its f1-score on test predictions, in order to balance the need to maximize the percentage of customers 'caught' (based on recall), with concern not to waste resources on customers who aren't at risk of churning but mistakenly identified as such (precision).
 A random forest classifier, with an f1-score of .71, is ultimately identified as the best performing model for the data.
